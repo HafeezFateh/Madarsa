@@ -9,7 +9,7 @@ function Header(){
 
     return(
         <>
-            <div className="p-2 lg:pr-5 lg:m-5 bg-stone-50/30  border-stone-200 rounded-xl mt-5 mx-3  flex items-center justify-between">
+            <div className="p-3 lg:pr-5 lg:m-5 bg-stone-50/30  border-stone-200 rounded-xl mt-5 mx-3  flex items-center justify-between">
                  <h1 className="text-xl text-white ml-2">Madarsa-e-Iqra</h1>
                  <span onClick={toggleMenu} class="text-white material-symbols-outlined lg:hidden"><span className="lg:hidden">menu</span></span>
                  <div className="hidden lg:flex gap-5 text-stone-50">
