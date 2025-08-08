@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 function Home(){
@@ -32,6 +33,7 @@ function Home(){
             </div>
             <div className="h-[50px] bg-gradient-to-t from-transparent to-stone-950/60"></div>
 
+            <Footer/>
         
         </>
     )
